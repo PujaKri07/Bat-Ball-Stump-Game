@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat Ball Stump</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Bat Ball Stump Game</h1>
+
+        <button class="gameButton" onclick="buttonPress('Bat')" ><img class="image" src="Bat.png" alt="Bat Image"></button>
+        <button class="gameButton" onclick="buttonPress('Ball')" ><img class="image" src="Ball.png" alt="Ball Image"></button>
+        <button class="gameButton" onclick="buttonPress('Stump')" ><img class="image" src="Stump.png" alt="Stump Image"></button>
+    </main>
+    <section class="view">
+        <div class="result" id = "Result">
+            <p>Result</p>
+        </div>
+
+        <div class="result" id="Score"></div>
+        <br>
+        
+    </section>
+    <section class="reset">
+        <button class="resetButton" onclick="ResetButton()">Restart</button>
+    </section>
+    
+<script src="javaScript.js"></script>
+</body>
+</html>
